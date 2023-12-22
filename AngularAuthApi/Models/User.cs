@@ -15,15 +15,9 @@ namespace AngularAuthYtAPI.Models
         public string? FirstName { get; set; }
         public string? LastName { get; set; }
         public string? IdNumber { get; set; }
-
-
-
         public string? Category { get; set; }
-
         public string? ImageUrl {  get; set; }
-
         public string? CvUrl { get; set; }
-
         public bool IsAdmin { get; set; } = false;
 
     }
